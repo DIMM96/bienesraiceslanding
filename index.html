@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bienes Raíces</title>
+    <!-- CSS BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- CSS NORMAL -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- GOOGLE FONTS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Courgette"
+    />
+    <!-- FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="css/all.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="home">
+      <!-- NAVBAR -->
+      <nav
+        class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-dark px-5"
+      >
+        <!--se define la clase navbar con navbar expand lg se define que el icono responsive salga cuando 
+    la pantalla salga del layout grande, se define un padding de 5px y el color negro  -->
+        <!--
+              https://www.iconfinder.com/icons/2012967/architecture_design_home_owner_house_housing_real_estate_roof_icon
+              Creative Commons (Attribution 3.0 Unported);
+              https://www.iconfinder.com/Myart
+             -->
+        <!--Se le da el reconocimiento al creador del logo por copyright -->
+        <a href="#home" class="navbar-brand">
+          <img src="/img/logo.png" alt="logo compañia" />
+          Nombre Marca
+        </a>
+        <!-- Inicia codigo para crear el menu de hamburguesa -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#myNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Termina codigo para crear el menu de hamburguesa -->
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Featured</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Tour</a>
+            </li>
+          </ul>
+          <div class="d-none d-lg-flex align-items-baseline">
+            <p class="text-white mx-4">
+              <span class="mx-2 phone-icon">
+                <i class="fas fa fa-phone fa-fw"></i>
+              </span>
+              + tu-numero-de-celular
+            </p>
+            <button class="btn green__btn text-capitalize">
+              Agenda una cita
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- FINAL NAVBAR -->
+      <div class="container-fluid">
+        <div class="row">
+          <!-- INICIA INFO SECTION -->
+          <div class="col-lg-5 banner-info text-capitalize py-5">
+            <h3 class="text-green text-slant">
+              Encuentra con nosotros tu hogar ideal
+            </h3>
+            <h1>
+              Casas en venta y en renta
+            </h1>
+            <p>
+              <span class="text-green">
+                <i class="fas fa-map"></i>
+              </span>
+              Ubicado en Naucalpan, Estado de México
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque,
+              voluptate magni! Cum harum numquam commodi!
+            </p>
+            <a href="#" class="btn green__btn">Informacion</a>
+            <div class="banner-info__footer d-flex justify-content-arounf py-2">
+              <!-- Single info -->
+              <div class="text-white text-center">
+                <i class="fa fa-bed"></i>
+                <p class="mb-0">3</p>
+                <p>Recamaras</p>
+              </div>
+              <!--Fin Single info -->
+              <!-- Single info -->
+              <div class="text-white text-center">
+                <i class="fa fa-bath"></i>
+                <p class="mb-0">4</p>
+                <p>Baños</p>
+              </div>
+              <!--Fin Single info -->
+              <!-- Single info -->
+              <div class="text-white text-center">
+                <i class="fa fa-warehouse"></i>
+                <p class="mb-0">1</p>
+                <p>Almacen</p>
+              </div>
+              <!--Fin Single info -->
+              <!-- Single info -->
+              <div class="text-white text-center">
+                <i class="fa fa-paw"></i>
+                <p class="mb-0">Animales</p>
+                <p>Admitidos</p>
+              </div>
+              <!--Fin Single info -->
+              <!-- Single info -->
+              <div class="text-white text-center">
+                <i class="fa fa-bed"></i>
+                <p class="mb-0">Precio</p>
+                <p>$2,000,000</p>
+              </div>
+              <!--Fin Single info -->
+            </div>
+          </div>
+          <!-- FIN DE INFO SECTION -->
+          <!-- IMAGEN BANNER SECTION -->
+          <div class="col-lg-7 banner-img">
+            <div class="banner-img__footer px-3">
+              <div class="center-div">
+                <p class="text-capitalize text-green mb-0">Precio de venta</p>
+                <h4 class="text-white">$1,000,000 MXN</h4>
+              </div>
+            </div>
+          </div>
+          <!--FIN IMAGEN BANNER SECTION -->
+        </div>
+      </div>
+    </header>
+    <!-- FINAL HEADER -->
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

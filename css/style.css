@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat|Mali");
+
+:root {
+  --mainDark: #242325;
+  --mainGreen: #61e786;
+  --mainWhite: #fff;
+  --mainGrey: #eeeeee;
+} /* variables de colores */
+
+body {
+  margin: 0;
+  font-family: "Mali", cursive;
+
+  background: var(--mainWhite);
+
+  color: var(--mainDark);
+}
+
+/*Estilos globales  */
+.text-green {
+  color: var(--mainGreen);
+}
+
+.text-slant {
+  font-family: "Caveant", cursive;
+}
+
+.green__btn {
+  color: var(--mainGreen);
+  border: 0.1rem solid var(--mainGreen);
+  background: transparent;
+}
+
+.green__btn:hover {
+  background: var(--mainGreen);
+  color: var(--mainWhite);
+}
+
+.phone-icon {
+  color: var(--mainGreen);
+  border: 0.1rem solid var(--mainGreen);
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.navbar {
+  padding-top: auto;
+}
+
+.banner-info__footer {
+  background: var(--mainGreen);
+}
+
+.banner-img__footer {
+  background: var(--mainDark);
+}
